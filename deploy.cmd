@@ -2,6 +2,6 @@
 
 rmdir /s /q %DEPLOYMENT_TARGET%
 
-xcopy %DEPLOYMENT_SOURCE%\dist %DEPLOYMENT_TARGET% /Y
+xcopy /s %DEPLOYMENT_SOURCE%\dist %DEPLOYMENT_TARGET% /Y
 
 goto end
